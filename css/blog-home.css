@@ -1,0 +1,579 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/templates/blog-home)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+a{
+  color: #28a745;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover{
+  color: #6c757d;
+  text-decoration: none;
+}
+.logo{
+  width: 130px;
+}
+.title-h{
+  color:#333333; 
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+.form-signin{
+  width: 100%;
+max-width: 330px;
+padding: 15px;
+margin: 0 auto;
+}
+
+/*....................................
+20. Prayer area start here
+....................................*/
+.prayer-area{
+  padding: 20px 2rem 0px;
+  margin-bottom: 0rem;
+  background-color: #ffffff;
+}
+.prayer-area .info {
+  overflow: hidden;
+  padding-top: 70px;
+}
+.prayer-area .info .sun {
+  height: 950px;
+  width: 950px;
+  margin: 0 auto -475px;
+  border: 8px solid #f5f5f5;
+  border-radius: 100%;
+  position: relative;
+}
+.prayer-area .info .sun .mid {
+  width: 288px;
+  height: 288px;
+  border-radius: 100%;
+  background: #e5ae49;
+  position: absolute;
+  top: 35%;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 144px;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .mid:before {
+  content: '';
+  position: absolute;
+  left: -25px;
+  right: -25px;
+  top: -25px;
+  bottom: -25px;
+  border-radius: 100%;
+  border: 3px solid #009146;
+}
+.prayer-area .info .sun .mid:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  background: #009146;
+  border-radius: 100%;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .mid:hover:after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.prayer-area .info .sun .mid img {
+  display: inline-block;
+  position: relative;
+  z-index: 999;
+}
+.prayer-area .info .sun .ico1 {
+  position: absolute;
+  left: -48px;
+  top: 251px;
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: #f5f5f5;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  line-height: 168px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico1:after {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  background-image: url(/img/icon/2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico1:before {
+  content: '';
+  position: absolute;
+  left: 105%;
+  right: 0;
+  transform: rotate(19deg);
+  top: 94%;
+  bottom: 0;
+  width: 180px;
+  height: 2px;
+  background: #f5f5f5;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico1:hover {
+  background-color: #009146;
+}
+.prayer-area .info .sun .ico1:hover strong {
+  color: #fff;
+}
+.prayer-area .info .sun .ico1:hover:before {
+  background: #009146;
+}
+.prayer-area .info .sun .ico1:hover:after {
+  background: url(/img/icon/2h.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico1 strong {
+  display: inline;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Droid Sans", sans-serif;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico2 {
+  position: absolute;
+  left: 104px;
+  top: 27px;
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: #f5f5f5;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  line-height: 168px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico2:after {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  background-image: url(/img/icon/3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico2:before {
+  content: '';
+  position: absolute;
+  left: 72%;
+  transform: rotate(49deg);
+  top: 148%;
+  bottom: 0;
+  width: 180px;
+  height: 2px;
+  background: #f5f5f5;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico2:hover {
+  background-color: #009146;
+}
+.prayer-area .info .sun .ico2:hover strong {
+  color: #fff;
+}
+.prayer-area .info .sun .ico2:hover:before {
+  background: #009146;
+}
+.prayer-area .info .sun .ico2:hover:after {
+  background: url(/img/icon/3h.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico2 strong {
+  display: inline;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Droid Sans", sans-serif;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -74px;
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: #f5f5f5;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  line-height: 168px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico3:after {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  background-image: url(/img/icon/4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico3:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  margin: auto;
+  right: 0;
+  transform: rotate(0deg);
+  top: 119%;
+  width: 2px;
+  height: 180px;
+  background: #f5f5f5;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico3:hover {
+  background-color: #009146;
+}
+.prayer-area .info .sun .ico3:hover strong {
+  color: #fff;
+}
+.prayer-area .info .sun .ico3:hover:before {
+  background: #009146;
+}
+.prayer-area .info .sun .ico3:hover:after {
+  background: url(/img/icon/4h.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico3 strong {
+  display: inline;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Droid Sans", sans-serif;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico4 {
+  position: absolute;
+  right: 104px;
+  top: 27px;
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: #f5f5f5;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  line-height: 168px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico4:after {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  background-image: url(/img/icon/5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico4:before {
+  content: '';
+  position: absolute;
+  right: 72%;
+  transform: rotate(-49deg);
+  top: 148%;
+  bottom: 0;
+  width: 180px;
+  height: 2px;
+  background: #f5f5f5;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico4:hover {
+  background-color: #009146;
+}
+.prayer-area .info .sun .ico4:hover strong {
+  color: #fff;
+}
+.prayer-area .info .sun .ico4:hover:before {
+  background: #009146;
+}
+.prayer-area .info .sun .ico4:hover:after {
+  background: url(/img/icon/5h.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico4 strong {
+  display: inline;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Droid Sans", sans-serif;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico5 {
+  position: absolute;
+  right: -40px;
+  top: 251px;
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: #f5f5f5;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  line-height: 168px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico5:after {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  background-image: url(/img/icon/6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico5:before {
+  content: '';
+  position: absolute;
+  right: 105%;
+  transform: rotate(-19deg);
+  top: 94%;
+  bottom: 0;
+  width: 180px;
+  height: 2px;
+  background: #f5f5f5;
+  transition: all 0.3s;
+}
+.prayer-area .info .sun .ico5:hover {
+  background-color: #009146;
+}
+.prayer-area .info .sun .ico5:hover strong {
+  color: #fff;
+}
+.prayer-area .info .sun .ico5:hover:before {
+  background: #009146;
+}
+.prayer-area .info .sun .ico5:hover:after {
+  background: url(/img/icon/6h.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prayer-area .info .sun .ico5 strong {
+  display: inline;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Droid Sans", sans-serif;
+  transition: all 0.3s;
+}
+
+.section-heading-one {
+  display: block;
+  position: relative;
+  z-index: 999;
+  padding: 0;
+  margin: 0 0 56px;
+  text-align: center;
+}
+.section-heading-one h2 {
+  position: relative;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0 0 28px;
+  display: block;
+}
+.section-heading-one h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  background: url(images/section/2.png) no-repeat;
+  background-position: center;
+}
+
+.section-heading-two {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0 0 50px;
+  text-align: center;
+}
+.section-heading-two h2 {
+  display: block;
+  position: relative;
+  padding: 0 0 28px;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  color: #111;
+}
+.section-heading-two h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  background: url(images/section/1.png) no-repeat;
+  background-position: center;
+}
+.section-heading-two p {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  width: 70%;
+}
+
+.section-heading-three {
+  display: block;
+  position: relative;
+  padding: 0;
+}
+.section-heading-three h2 {
+  display: block;
+  position: relative;
+  padding: 0 0 28px;
+  margin: 0 0 60px;
+  text-transform: uppercase;
+  color: #111;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+.section-heading-three h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  background: url(images/section/3.png) no-repeat;
+  background-position: left;
+}
+
+.section_hdg.hdg_2 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 41px;
+  z-index: 99;
+}
+
+.section_hdg span {
+  font-size: 25px;
+  position: relative;
+}
+.section_hdg span::after, .section_hdg span::before {
+  border-bottom: 1px solid #acacac;
+  bottom: 14px;
+  content: "";
+  left: auto;
+  position: absolute;
+  right: -56px;
+  top: 0;
+  width: 38px;
+}
+.section_hdg span::after {
+  border-top: 1px solid #acacac;
+  border-bottom: none;
+  top: 19px;
+  right: auto;
+  left: -56px;
+  display: block;
+}
+.section_hdg span i {
+  color: #009146;
+}
+.section_hdg img{
+  width: 120px;
+}
+
+.nav-link{
+  text-transform: lowercase;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.nav-link:first-letter{
+  text-transform: capitalize;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-left: 2.5rem;
+}
+.card-title a{
+  text-transform: lowercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.card-title:first-letter{
+  text-transform: capitalize;
+}
+.detalist-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
